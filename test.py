@@ -21,7 +21,7 @@ def getReviewPage(url=''):
 print(getReviewPage("https://letterboxd.com/redlettermedia/film/drive-angry/"))
 """
 
-directory = "C:\\Users\Connor\Desktop\letterboxd\letterboxdCorpus"
+directory = "C:\\Users\Connor\Desktop\\370\letterboxdCorpus"
 
 dfs = []
 for filename in os.listdir(directory):
@@ -33,4 +33,4 @@ for filename in os.listdir(directory):
                 dfs.append(userDf)
 df = pd.concat(dfs, ignore_index=False)
 print(df)
-#df.to_csv("C:/Users/Connor/Desktop/letterboxd/letterboxdCorpus/df.csv")
+#df.to_csv("C:/Users/Connor/Desktop/letterboxd/letterboxdCorpus/all.csv")
