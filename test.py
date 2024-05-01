@@ -33,4 +33,4 @@ for filename in os.listdir(directory):
                 dfs.append(userDf)
 df = pd.concat(dfs, ignore_index=False)
 print(df)
-#df.to_csv("C:/Users/Connor/Desktop/letterboxd/letterboxdCorpus/all.csv")
+df.to_csv("C:/Users/Connor/Desktop/370/letterboxdCorpus/all2.csv")

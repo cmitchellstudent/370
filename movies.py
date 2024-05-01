@@ -44,10 +44,10 @@ from rich.console import Console
 from rich import print as rprint
 
 console = Console()
-args.user = "sapphicquinn"
-args.reviews = False
+args.user = "kfavs"
+args.reviews = True
 args.html = False
-args.json = False
+args.json = True
 
 
 #How many reviews do i have?
